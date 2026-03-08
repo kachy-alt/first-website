@@ -1,16 +1,17 @@
 body{
-background-color: coral;
+background: linear-gradient(45deg,rgb(255, 17, 57), rgb(253, 77, 14),white);
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+height: 100vh;
 }
 h1 {
     color: fuchsia;
 }
 p {
-    color: bisque;
+    color: white;
     text-decoration: underline;
 }
 
