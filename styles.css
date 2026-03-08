@@ -18,4 +18,9 @@ p {
 .cat-img { 
     display: flex;
     border-radius: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cat-img:hover{
+    transform: scale(1.05);
 }
